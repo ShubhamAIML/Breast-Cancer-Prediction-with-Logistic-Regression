@@ -155,3 +155,23 @@ body {
 .reset-btn:hover {
     background-color: #D9A77A; /* Light warm brown */
 }
+
+/* GitHub Button */
+.github-btn {
+    background-color: #A27B5C; /* Warm brown */
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.github-btn:hover {
+    background-color: #D9A77A; /* Light warm brown */
+}
