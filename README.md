@@ -178,13 +178,13 @@ The project addresses the following questions:
 
 ## 🔗 **Submission Details**  
 - **GitHub Repository**: This repository contains all code, datasets, visualizations, and documentation.  
-- **Task**: Completed as per the **Elevale AI & ML Internship Task 4** guidelines (see `task_4.pdf`).
+- **Task**: Completed as per the **Elevate AI & ML Internship Task 4** guidelines (see `task_4.pdf`).
 - **Time Window**: Task completed within the allowed window (10:00 AM to 10:00 PM).  
 
 ---
 
 ## 🙌 **Acknowledgments**  
-- **Elevale**: For providing this learning opportunity.  
+- **Elevate**: For providing this learning opportunity.  
 - **Kaggle**: For the **Breast Cancer Wisconsin Dataset**.  
 - **Open-Source Community**: For tools like Scikit-learn, Flask, and Pandas.  
 
