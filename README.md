@@ -2,7 +2,7 @@
 
 Welcome to the **Breast Cancer Prediction** project! This repository contains a machine learning model built using **Logistic Regression** and a **Flask web application** to predict breast cancer diagnosis (*Malignant* or *Benign*) based on the **Breast Cancer Wisconsin Dataset**.  
 
-**[🌐Live Web App](https://breast-cancer-prediction-u9xj.onrender.com/)**  |  **[📓Google Colab Notebook](https://colab.research.google.com/drive/1qbyuTQ7OY-8u-GZx-tzhuzd1pndlnsuf?usp=sharing)**
+**[🌐Live Web App](https://breast-cancer-prediction-u9xj.onrender.com/)**  |  **[📓Google Colab Notebook](https://colab.research.google.com/drive/1qbyuTQ7OY-8u-GZx-tzhuzd1pndlnsuf?usp=sharing)**   |  **[📓Kaggle Notebook](https://www.kaggle.com/code/shubham1921/notebook7054d49d75)**
 
 ## 📖 **Overview**  
 The goal of this project is to:  
