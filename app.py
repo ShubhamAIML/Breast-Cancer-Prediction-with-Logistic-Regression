@@ -29,14 +29,14 @@ FEATURES = [
     'fractal_dimension_worst'
 ]
 
-# Debug: Verify data.csv columns
+# Debug: Verify processed_data.csv columns
 try:
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('processed_data.csv')
     data_columns = data.drop(columns=['diagnosis'] if 'diagnosis' in data.columns else []).columns.tolist()
     if data_columns != FEATURES:
-        print(f"Warning: data.csv columns do not match FEATURES. Expected: {FEATURES}, Got: {data_columns}")
+        print(f"Warning: processed_data.csv columns do not match FEATURES. Expected: {FEATURES}, Got: {data_columns}")
 except Exception as e:
-    print(f"Error loading data.csv: {e}")
+    print(f"Error loading processed_data.csv: {e}")
 
 # Single Prediction route
 @app.route('/', methods=['GET', 'POST'])
