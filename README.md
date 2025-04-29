@@ -2,6 +2,8 @@
 
 Welcome to the **Breast Cancer Prediction** project! This repository contains a machine learning model built using **Logistic Regression** and a **Flask web application** to predict breast cancer diagnosis (*Malignant* or *Benign*) based on the **Breast Cancer Wisconsin Dataset**.  
 
+**[🌐Live Web App](https://breast-cancer-prediction-u9xj.onrender.com/)**  |  **[📓Google Colab Notebook](https://colab.research.google.com/drive/1qbyuTQ7OY-8u-GZx-tzhuzd1pndlnsuf?usp=sharing)**
+
 ## 📖 **Overview**  
 The goal of this project is to:  
 - Build a **binary classifier** using **Logistic Regression** to predict breast cancer diagnosis.  
@@ -176,8 +178,7 @@ The project addresses the following questions:
 
 ## 🔗 **Submission Details**  
 - **GitHub Repository**: This repository contains all code, datasets, visualizations, and documentation.  
-- **Task**: Completed as per the **Elevale AI & ML Internship Task 4** guidelines (see `task_4.pdf`).  
-- **Submission Link**: To be submitted via the provided [Submission Link].  
+- **Task**: Completed as per the **Elevale AI & ML Internship Task 4** guidelines (see `task_4.pdf`).
 - **Time Window**: Task completed within the allowed window (10:00 AM to 10:00 PM).  
 
 ---
