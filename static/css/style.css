@@ -1,0 +1,157 @@
+/* Light Mode (Default) */
+body {
+    background-color: #E8E6E0; /* Light cream */
+    color: #2C3930; /* Dark green */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1100px;
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #A8B5A2; /* Light muted green */
+    background-color: #E8E6E0;
+    color: #2C3930;
+}
+
+.form-control:focus {
+    border-color: #D9A77A; /* Light warm brown */
+    box-shadow: 0 0 0 0.2rem rgba(217, 167, 122, 0.25);
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #D9A77A; /* Light warm brown */
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+    color: #2C3930;
+}
+
+.btn-primary:hover {
+    background-color: #A27B5C; /* Warm brown */
+}
+
+.result-benign {
+    color: #3F4F44; /* Muted green */
+    font-weight: 600;
+    font-size: 1.5em; /* Increased text size */
+}
+
+.result-malignant {
+    color: #A27B5C; /* Warm brown */
+    font-weight: 600;
+    font-size: 1.5em; /* Increased text size */
+}
+
+.error {
+    color: #A27B5C; /* Warm brown */
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.disclaimer {
+    font-size: 0.85em;
+    color: #A8B5A2; /* Light muted green */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.accordion-button {
+    font-weight: 500;
+    border-radius: 6px !important;
+    background-color: #ffffff;
+    color: #2C3930;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #A8B5A2; /* Light muted green */
+    color: #2C3930;
+}
+
+.accordion-item {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+}
+
+/* Input Row Layout */
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input-row .form-group {
+    flex: 1 1 calc(33.333% - 10px);
+    min-width: 200px;
+}
+
+/* Field Counter */
+.field-counter {
+    font-size: 1em;
+    color: #D9A77A; /* Light warm brown */
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Field Counter */
+.field-counter-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.field-counter-container.hidden {
+    display: none;
+}
+
+/* Reset Button */
+.reset-btn {
+    background-color: #A27B5C; /* Warm brown */
+    color: #DCD7C9; /* Light cream */
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 10px;
+}
+
+.reset-btn:hover {
+    background-color: #D9A77A; /* Light warm brown */
+}
